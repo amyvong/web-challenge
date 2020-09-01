@@ -25,18 +25,15 @@ body {
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
   .navbar li {
     display: inline-block;
-    padding: 20px;
+    background-color:#5eb8a4;
+    padding: 5px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
     border-radius: 3px;
   }
   
-  /* Getting rid of the default link styles here */
-  .navbar li a {
-    color: #000;
-    text-decoration: none;
-  }
+ 
   
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
@@ -133,3 +130,8 @@ body {
   }
 
 
+  @media (max-width: 600px) {
+    .navbar li  {
+      background: #f1e080;
+    } 
+  
